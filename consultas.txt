@@ -1,0 +1,22 @@
+# por defecto
+
+es_un_transporte(avion). # true
+es_un_transporte(barco). # true
+es_un_transporte(computadora). # false
+es_un_tipo_de_transporte(aereo). # true
+es_un_transporte_terrestre(automovil). # true
+es_un_transporte_aereo(avion). # true
+es_un_transporte_maritimo(barco). # true
+comprobar_atributos_por_transporte(avioneta, puede, volar). # true
+comprobar_atributos_por_tipo_de_transporte(aereo, puede, volar). # true
+comprobar_atributos_por_tipo_de_transporte(aereo, no_puede, nadar). # true
+comprobar_atributos_por_tipo_de_transporte(aereo, puede, nadar). # false
+atributos_aereos(puede, volar). # true
+atributos_terrestres(tiene, llantas). # true
+atributos_maritimos(usa, velas). # true
+
+# compuestas
+
+es_un_transporte(avion), es_un_transporte(barco). # and - true
+es_un_transporte(avion); es_un_transporte(computadora). # or - true
+not(es_un_transporte(computadora)). # not - true
