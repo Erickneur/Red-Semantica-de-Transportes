@@ -1,4 +1,4 @@
-# Red semantica de transportes
+# Red semántica de transportes
 
 Esta red semántica se divide en transportes aéreos, terrestres y marítimos, utilizando los transportes más comunes y atributos básicos de cada uno.
 
@@ -10,16 +10,16 @@ https://www.swi-prolog.org/download/stable
 
 ## 2. Inicializar prolog
 
-$ swipl
+$ `swipl`
 
 ## 3. Cargar archivo
 
-$ [transportes].
+$ `[transportes].`
 
 ## 4. Realizar consultas
 
-$ es_un_transporte(avion).
+$ `es_un_transporte(avion).`
 
 ## 5. Para salir de swi-prolog se utiliza
 
-$ halt.
+$ `halt.`
